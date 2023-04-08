@@ -1,0 +1,152 @@
+html {
+    font-size: 16px;
+    font-family: 'Cormorant Garamond', serif;}
+
+/*CSS for header section*/
+
+header {
+    border-top: 1.5px solid black;
+    border-bottom: 1.5px solid black;
+    display: flex;
+    justify-content: space-around;
+    background-color: #eeeeee;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 5rem;
+    font-weight: 200;
+}
+
+header nav a {
+    font-size: 1.5rem;
+    padding: 0rem 3rem;
+    color: black;
+}
+
+header nav a:hover {
+    text-decoration: none;
+}
+
+/*CSS for main section*/
+
+#main {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    border-bottom: 1.5px solid black;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#main img {
+    max-width: 100%;
+}
+
+.text p {
+    position: relative;
+    margin: 0rem 4rem;
+    text-align: center;
+    font-size: 2rem;
+    line-height: 2.5;
+}
+
+.text .button {
+    display: flex;
+    margin: 2rem auto 0rem;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    color: black;
+}
+
+.text .button:hover {
+    background-color: #eeeeee;
+}
+
+.text .button:active {
+    text-decoration: none;
+}
+
+/* CSS for Technical Skills section */
+
+#skills {
+    padding-top: 2.5rem;
+    padding-bottom: 5rem;
+}
+
+#skills p {
+    text-align: center;
+    font-size: 2rem;
+}
+
+#skills .icon-container {
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+    margin: auto;
+    padding-top: 2rem;
+}
+
+.icon {
+    width: 5%;
+}
+
+/* CSS for Projects section */
+
+#projects {
+    border-top: 1.5px solid black;
+    border-bottom: 1.5px solid black;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+#projects .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    margin: auto;
+}
+
+/* CSS for Contact Me Section */
+
+#contact-me {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+/* CSS for footer section */
+
+footer {
+    border-top: 1.5px solid black;
+    border-bottom: 1.5px solid black;
+    padding-bottom: 5rem;
+    background-color: #eeeeee;
+}
+
+footer h1 {
+    text-align: center;
+    font-size: 5rem;
+}
+
+footer .icon-container {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin: auto;
+}
+
+footer .icon {
+    width: 10%
+}
