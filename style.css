@@ -36,8 +36,7 @@ header nav a:hover {
 
 #main {
     padding-top: 5rem;
-    padding-bottom: 5rem;
-    border-bottom: 1.5px solid black;
+    padding-bottom: 3rem;
     display: inline-flex;
     justify-content: space-around;
     align-items: center;
@@ -77,9 +76,16 @@ header nav a:hover {
     text-decoration: none;
 }
 
+.hidden-text {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 2.5;
+}
+
 /* CSS for Technical Skills section */
 
 #skills {
+    border-top: 1.5px solid black;;
     padding-top: 2.5rem;
     padding-bottom: 5rem;
 }
