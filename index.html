@@ -6,7 +6,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap" rel="stylesheet"> 
     </head>
     <body>
-        <script src="main.js"></script>
+        <script type="text/javascript" src="main.js"></script>
 
         <!--HTML for logo-->
         <header>
@@ -29,11 +29,11 @@
             <div class="text">
                 <p>Hello there! This is me.<br> Collin Del Rosario. <br>A front-end engineer who loves to create fun and creative websites and applications</p>
                 <div class="button-container">
-                    <a href="About-Me" class="button">About Me</a>
+                    <a href="About-Me" id="mainButton" onclick="toggleText()">About Me</a>
                 </div>
             </div>
         </section>
-        <section class="hidden-text">
+        <section id="hiddenText" style="display: none;">
             <p> 
                 I have always enjoyed Mathematics.
                 <br>The initial black-and-white nature; the never-ending rabbit holes of knowledge within fields such as Linear Algebra and Calculus; the complexity, relevance, and dependency on Mathematics has always intrigued me. Coding and creating projects have allowed me to channel my love for logic and systems in a creative manner, and is something I truly enjoy.
@@ -58,7 +58,7 @@
             <div class="text">
                 <p>This passion for creativity has allowed me to produce projects that I'm so proud of</p>
                 <div class="button-container">
-                    <a href="My-Projects" class="button">Projects</a>
+                    <a href="My-Projects" id="projectsButton">Projects</a>
                 </div>
             </div>
         </section>
@@ -68,7 +68,7 @@
             <div class="text">
                 <p>Have an interesting project? I'd love to hear about it!</p>
                 <div class="button-container">
-                    <a href="Contact-Me" class="button">Contact Me</a>
+                    <a href="Contact-Me" id="contactButton">Contact Me</a>
                 </div>
             </div>
         </section>

@@ -54,7 +54,7 @@ header nav a:hover {
     line-height: 2.5;
 }
 
-.text .button {
+#mainButton {
     display: flex;
     margin: 2rem auto 0rem;
     padding: 15px;
@@ -68,15 +68,16 @@ header nav a:hover {
     color: black;
 }
 
-.text .button:hover {
+#mainButton:hover {
     background-color: #eeeeee;
 }
 
-.text .button:active {
+#mainButton:active {
     text-decoration: none;
 }
 
-.hidden-text {
+#hiddenText {
+    display: none;
     text-align: center;
     font-size: 2rem;
     line-height: 2.5;
@@ -125,11 +126,55 @@ header nav a:hover {
     margin: auto;
 }
 
+#projectsButton {
+    display: flex;
+    margin: 2rem auto 0rem;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    color: black;
+}
+
+#projectsButton:hover {
+    background-color: #eeeeee;
+}
+
+#projectsButton:active {
+    text-decoration: none;
+}
+
 /* CSS for Contact Me Section */
 
 #contact-me {
     padding-top: 5rem;
     padding-bottom: 5rem;
+}
+
+#contactButton {
+    display: flex;
+    margin: 2rem auto 0rem;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    text-decoration: underline;
+    color: black;
+}
+
+#contactButton:hover {
+    background-color: #eeeeee;
+}
+
+#contactButton:active {
+    text-decoration: none;
 }
 
 /* CSS for footer section */
