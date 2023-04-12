@@ -14,6 +14,23 @@ const toggleText = () => {
     }
 }
 
+const showHiddenProjects = () => {
+    let projectPoints = document.getElementById('projectPoints');
+    let projectsButton = document.getElementById('projectsButton');
+    let hiddenProjects = document.getElementById('hiddenProjects');
+
+    if(projectPoints.style.display === 'none') {
+        hiddenProjects.style.display = 'none';
+        projectPoints.style.display = 'inline';
+        projectsButton.innerHTML = 'Projects';
+    } else {
+        hiddenProjects.style.display = 'flex';
+        projectPoints.style.display = 'none';
+        projectsButton.innerHTML = 'Show Less'
+    }
+}
+
+
 const showHiddenContact = () => {
     let points = document.getElementById('contactPoints');
     let contactButton = document.getElementById('contactButton');

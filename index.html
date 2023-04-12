@@ -56,10 +56,14 @@
         <!--HTML for projects section-->
         <section id="projects">
             <div class="text">
-                <p>This passion for creativity has allowed me to produce projects that I'm so proud of</p>
+                <p>This passion for creativity has allowed me to produce projects that I'm so proud of<span id="projectPoints">...</span></p>
                 <div class="button-container">
-                    <a href="My-Projects" id="projectsButton">Projects</a>
+                    <a href="My-Projects" id="projectsButton" onclick=showHiddenProjects()>Projects</a>
                 </div>
+            </div>
+            <div id="hiddenProjects" style="display: none;">
+                <a class="projectLink" href="https://github.com/delroscol98/best-days-ever.git" target="_blank">Wedding Homepage</a>
+                <a class="projectLink" href="https://github.com/delroscol98/Mixed-Messages.git" target="_blank">Mixed Message Generator</a>
             </div>
         </section>
 
@@ -133,7 +137,7 @@
         <footer>
             <h1>CDR</h1>
             <div class="icon-container">
-                <img href="#" class="icon" src="Icons/facebook copy.svg" alt="facebook icon">
+                <img href="#" class="icon" src="Icons/instagram copy.svg" alt="facebook icon">
                 <img href="#" class="icon" src="Icons/linkedin copy.svg" alt="linkedin icon">
             </div>
         </footer>
