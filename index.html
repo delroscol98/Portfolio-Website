@@ -66,9 +66,68 @@
         <!--HTML for Contact Me section-->
         <section id="contact-me">
             <div class="text">
-                <p>Have an interesting project? I'd love to hear about it!</p>
+                <p>Have an interesting project? I'd love to hear about it<span id='mainPoints'>...</span></p>
                 <div class="button-container">
                     <a href="Contact-Me" id="contactButton">Contact Me</a>
+                </div>
+            </div>
+            <div id="hiddenContact">
+                <form>
+                    <label for="first-name">First Name:</label>
+                    <br>
+                    <input 
+                        type="text" 
+                        name="first-name" 
+                        id="first-name" 
+                        placeholder="Enter your first name"
+                        required>
+                    <br>
+                    <label for="last-name">Last Name:</label>
+                    <br>
+                    <input 
+                        type="text" 
+                        name="last-name" 
+                        id="last-name" 
+                        placeholder="Enter your last name"
+                        required>
+                    <br>
+                    <label for="email">Email:</label>
+                    <br>
+                    <input 
+                        type="text" 
+                        name="email" 
+                        id="email" 
+                        placeholder="Enter your email"
+                        required>
+                    <br>
+                    <label for="ph-number">Contact Number:</label>
+                    <br>
+                    <input 
+                        type="text" 
+                        name="ph-number" 
+                        id="ph-number"
+                        placeholder="Enter your phone number"
+                        required>
+                    <br>
+                    <label for="idea">What's your idea?</label>
+                    <br>
+                    <textarea 
+                        id="idea" 
+                        name="idea" 
+                        rows="5" 
+                        cols="30"
+                        minLength="5" 
+                        maxLength='10'
+                        placeholder="Tell me your idea" 
+                        required>
+                    </textarea>
+                    <br>
+                    <input type="submit" value="Submit">
+                </form>
+                <div id="contactDetails">
+                    <h1>My Details</h1>
+                    <p><strong>Email:</strong> collindelrosario98@gmail.com</p>
+                    <p><strong>Phone:</strong> +61 481 388 774</p>
                 </div>
             </div>
         </section>

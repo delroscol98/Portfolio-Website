@@ -177,6 +177,30 @@ header nav a:hover {
     text-decoration: none;
 }
 
+#hiddenContact {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid red;
+}
+
+form {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-top: 3rem;
+    border: 1px solid red;
+
+}
+
+#contactDetails {
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    margin-top: 3rem;
+    border: 1px solid red;
+
+}
+
 /* CSS for footer section */
 
 footer {

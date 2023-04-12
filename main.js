@@ -1,5 +1,5 @@
 const toggleText = () => {
-    let points = document.getElementById('points');
+    let points = document.getElementById('mainPoints');
     let mainButton = document.getElementById('mainButton');
     let hiddenText = document.getElementById('hiddenText');
 
