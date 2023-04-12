@@ -13,3 +13,19 @@ const toggleText = () => {
         mainButton.innerHTML = 'Show Less'
     }
 }
+
+const showHiddenContact = () => {
+    let points = document.getElementById('contactPoints');
+    let contactButton = document.getElementById('contactButton');
+    let hiddenContact = document.getElementById('hiddenContact');
+
+    if(contactPoints.style.display === 'none') {
+        hiddenContact.style.display = 'none';
+        contactPoints.style.display = 'inline';
+        contactButton.innerHTML = 'Contact Me';
+    } else {
+        hiddenContact.style.display = 'flex';
+        contactPoints.style.display = 'none';
+        contactButton.innerHTML = 'Show Less'
+    }
+}
