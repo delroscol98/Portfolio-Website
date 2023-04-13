@@ -42,8 +42,7 @@ header nav a:hover {
 }
 
 #main img {
-    flex-shrink: 2;
-    max-width: 100%;
+    max-width: 60vw;
 }
 
 .text p {
@@ -57,10 +56,10 @@ header nav a:hover {
 #mainButton {
     display: flex;
     margin: 2vw auto 0vw;
-    padding: 15px;
+    padding: 1vw;
     align-items: center;
     justify-content: center;
-    width: 180px;
+    width: 7vw;
     border: 1px solid black;
     border-radius: 10px;
     font-size: 1.5vw;
@@ -130,10 +129,10 @@ header nav a:hover {
 #projectsButton {
     display: flex;
     margin: 2vw auto 0vw;
-    padding: 15px;
+    padding: 1vw;
     align-items: center;
     justify-content: center;
-    width: 180px;
+    width: 7vw;
     border: 1px solid black;
     border-radius: 10px;
     font-size: 1.5vw;
@@ -175,10 +174,10 @@ header nav a:hover {
 #contactButton {
     display: flex;
     margin: 2vw auto 0vw;
-    padding: 15px;
+    padding: 1vw;
     align-items: center;
     justify-content: center;
-    width: 180px;
+    width: 7vw;
     border: 1px solid black;
     border-radius: 10px;
     font-size: 1.5vw;
@@ -203,19 +202,47 @@ header nav a:hover {
 }
 
 form {
-    text-align: left;
-    font-size: 1.5vw;
-    line-height: 1.5;
     margin-top: 3vw;
 }
+
+input, textarea {
+    width: 100%;
+    padding: 1vw;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+label {
+    padding: 1vw 1vw 1vw 0;
+    display: inline-block;
+  }
 
 #contactDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: left;
     font-size: 1.5vw;
     line-height: 1.5;
     margin-top: 3vw;
+    padding-left: 6vw;
+    border-left: 1px solid black;
 }
 
+@media screen and (max-width: 768px) {
+    #hiddenContact {
+        flex-direction: column-reverse;
+    }
+
+    #contactDetails
+ {
+    padding-left: 0;
+    border-left: none;
+    border-bottom: 1px solid black;
+    padding-bottom: 3vw;
+ }}
 
 /* CSS for footer section */
 
