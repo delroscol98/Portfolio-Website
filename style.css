@@ -1,5 +1,4 @@
 html {
-    font-size: 16px;
     font-family: 'Cormorant Garamond', serif;}
 
 /*CSS for header section*/
@@ -18,13 +17,13 @@ header nav {
 }
 
 header h1 {
-    font-size: 5rem;
+    font-size: 5vw;
     font-weight: 200;
 }
 
 header nav a {
-    font-size: 1.5rem;
-    padding: 0rem 3rem;
+    font-size: 1.5vw;
+    padding: 0vw 3vw;
     color: black;
 }
 
@@ -35,35 +34,36 @@ header nav a:hover {
 /*CSS for main section*/
 
 #main {
-    padding-top: 5rem;
-    padding-bottom: 3rem;
+    padding-top: 5vw;
+    padding-bottom: 3vw;
     display: inline-flex;
     justify-content: space-around;
     align-items: center;
 }
 
 #main img {
+    flex-shrink: 2;
     max-width: 100%;
 }
 
 .text p {
     position: relative;
-    margin: 0rem 4rem;
+    margin: 0vw 4vw;
     text-align: center;
-    font-size: 2rem;
+    font-size: 2vw;
     line-height: 2.5;
 }
 
 #mainButton {
     display: flex;
-    margin: 2rem auto 0rem;
+    margin: 2vw auto 0vw;
     padding: 15px;
     align-items: center;
     justify-content: center;
     width: 180px;
     border: 1px solid black;
     border-radius: 10px;
-    font-size: 1.5rem;
+    font-size: 1.5vw;
     text-decoration: underline;
     color: black;
     cursor: pointer;
@@ -80,7 +80,7 @@ header nav a:hover {
 #hiddenText {
     display: none;
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.5vw;
     line-height: 2;
 }
 
@@ -88,13 +88,13 @@ header nav a:hover {
 
 #skills {
     border-top: 1.5px solid black;;
-    padding-top: 2.5rem;
-    padding-bottom: 5rem;
+    padding-top: 2.5vw;
+    padding-bottom: 5vw;
 }
 
 #skills p {
     text-align: center;
-    font-size: 2rem;
+    font-size: 2vw;
 }
 
 #skills .icon-container {
@@ -102,7 +102,7 @@ header nav a:hover {
     justify-content: space-around;
     width: 75%;
     margin: auto;
-    padding-top: 2rem;
+    padding-top: 2vw;
 }
 
 .icon {
@@ -114,8 +114,8 @@ header nav a:hover {
 #projects {
     border-top: 1.5px solid black;
     border-bottom: 1.5px solid black;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
 }
 
 #projects .text {
@@ -129,14 +129,14 @@ header nav a:hover {
 
 #projectsButton {
     display: flex;
-    margin: 2rem auto 0rem;
+    margin: 2vw auto 0vw;
     padding: 15px;
     align-items: center;
     justify-content: center;
     width: 180px;
     border: 1px solid black;
     border-radius: 10px;
-    font-size: 1.5rem;
+    font-size: 1.5vw;
     text-decoration: underline;
     color: black;
     cursor: pointer;
@@ -153,11 +153,11 @@ header nav a:hover {
 #hiddenProjects {
     display: flex;
     justify-content: space-around;
-    margin-top: 3rem;
+    margin-top: 3vw;
 }
 
 .projectLink {
-    font-size: 1.25rem;
+    font-size: 1.25vw;
     color: black;
 }
 
@@ -168,20 +168,20 @@ header nav a:hover {
 /* CSS for Contact Me Section */
 
 #contact-me {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 5vw;
+    padding-bottom: 5vw;
 }
 
 #contactButton {
     display: flex;
-    margin: 2rem auto 0rem;
+    margin: 2vw auto 0vw;
     padding: 15px;
     align-items: center;
     justify-content: center;
     width: 180px;
     border: 1px solid black;
     border-radius: 10px;
-    font-size: 1.5rem;
+    font-size: 1.5vw;
     text-decoration: underline;
     color: black;
     cursor: pointer;
@@ -204,16 +204,16 @@ header nav a:hover {
 
 form {
     text-align: left;
-    font-size: 1.5rem;
+    font-size: 1.5vw;
     line-height: 1.5;
-    margin-top: 3rem;
+    margin-top: 3vw;
 }
 
 #contactDetails {
     text-align: left;
-    font-size: 1.5rem;
+    font-size: 1.5vw;
     line-height: 1.5;
-    margin-top: 3rem;
+    margin-top: 3vw;
 }
 
 
@@ -222,13 +222,13 @@ form {
 footer {
     border-top: 1.5px solid black;
     border-bottom: 1.5px solid black;
-    padding-bottom: 5rem;
+    padding-bottom: 5vw;
     background-color: #eeeeee;
 }
 
 footer h1 {
     text-align: center;
-    font-size: 5rem;
+    font-size: 5vw;
 }
 
 footer .icon-container {
